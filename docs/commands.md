@@ -3124,7 +3124,6 @@ hal config canary google account edit ACCOUNT [parameters]
  * `--no-validate`: (*Default*: `false`) Skip validation.
  * `--project`: The Google Cloud Platform project the canary service will use to consume GCS and Stackdriver.
  * `--root-folder`: The root folder in the chosen bucket to place all of the canary service's persistent data in (*Default*: `kayenta`).
- 
 
 ---
 ## hal config canary google account get
