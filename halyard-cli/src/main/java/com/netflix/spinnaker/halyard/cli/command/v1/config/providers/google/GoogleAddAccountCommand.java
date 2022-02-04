@@ -45,13 +45,11 @@ public class GoogleAddAccountCommand extends AbstractAddAccountCommand {
 
   @Parameter(
       names = "--service-account-id",
-      converter = LocalFileConverter.class,
       description = CommonGoogleCommandProperties.SERVICE_ACCOUNT_ID)
   private String serviceAccountId;
 
   @Parameter(
       names = "--service-account-project",
-      converter = LocalFileConverter.class,
       description = CommonGoogleCommandProperties.SERVICE_ACCOUNT_PROJECT)
   private String serviceAccountProject;
 
